@@ -1,0 +1,80 @@
+[
+  {
+    "model": "lms.course",
+    "pk": 2,
+    "fields": {
+      "title": "Python/git",
+      "description": "Введение в git.hub",
+      "preview": "",
+      "owner": null
+    }
+  },
+  {
+    "model": "lms.course",
+    "pk": 3,
+    "fields": {
+      "title": "Python/django",
+      "description": "Введение в django",
+      "preview": "",
+      "owner": null
+    }
+  },
+  {
+    "model": "lms.course",
+    "pk": 4,
+    "fields": {
+      "title": "DRF",
+      "description": "Введение в DRF",
+      "preview": "",
+      "owner": 6
+    }
+  },
+  {
+    "model": "lms.lesson",
+    "pk": 2,
+    "fields": {
+      "course": 2,
+      "title": "Git",
+      "description": "Знакомство с git",
+      "preview": "",
+      "video_url": null,
+      "owner": null
+    }
+  },
+  {
+    "model": "lms.lesson",
+    "pk": 3,
+    "fields": {
+      "course": 3,
+      "title": "Django",
+      "description": "Знакомство с Django",
+      "preview": "",
+      "video_url": null,
+      "owner": null
+    }
+  },
+  {
+    "model": "lms.lesson",
+    "pk": 4,
+    "fields": {
+      "course": 2,
+      "title": "Git - углубленно",
+      "description": "Углубленное изучение  git",
+      "preview": "",
+      "video_url": null,
+      "owner": null
+    }
+  },
+  {
+    "model": "lms.lesson",
+    "pk": 5,
+    "fields": {
+      "course": 4,
+      "title": "DRF",
+      "description": "Знакомство с DRF",
+      "preview": "",
+      "video_url": null,
+      "owner": 6
+    }
+  }
+]
