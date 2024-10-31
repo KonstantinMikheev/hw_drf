@@ -6,7 +6,7 @@
       "title": "Python/git",
       "description": "Введение в git.hub",
       "preview": "",
-      "owner": null
+      "owner": 6
     }
   },
   {
@@ -16,7 +16,7 @@
       "title": "Python/django",
       "description": "Введение в django",
       "preview": "",
-      "owner": null
+      "owner": 6
     }
   },
   {
@@ -38,7 +38,7 @@
       "description": "Знакомство с git",
       "preview": "",
       "video_url": null,
-      "owner": null
+      "owner": 6
     }
   },
   {
@@ -50,7 +50,7 @@
       "description": "Знакомство с Django",
       "preview": "",
       "video_url": null,
-      "owner": null
+      "owner": 6
     }
   },
   {
@@ -62,7 +62,7 @@
       "description": "Углубленное изучение  git",
       "preview": "",
       "video_url": null,
-      "owner": null
+      "owner": 6
     }
   },
   {

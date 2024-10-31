@@ -18,8 +18,13 @@ django-filter = "^24.3"
 djangorestframework-simplejwt = "^5.3.1"
 ipython = "^8.29.0"
 isort = "^5.13.2"
+pyproject-toml = "^0.0.10"
+coverage = "^7.6.4"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.coverage.html]
+directory = "coverage_html_report"
