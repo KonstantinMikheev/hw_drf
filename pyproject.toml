@@ -20,6 +20,10 @@ ipython = "^8.29.0"
 isort = "^5.13.2"
 pyproject-toml = "^0.0.10"
 coverage = "^7.6.4"
+drf-yasg = "^1.21.8"
+django-cors-headers = "^4.6.0"
+stripe = "^11.2.0"
+forex-python = "^1.8"
 
 
 [build-system]

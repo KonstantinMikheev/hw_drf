@@ -1,4 +1,6 @@
 from django.shortcuts import get_object_or_404
+from django.utils.decorators import method_decorator
+from drf_yasg.utils import swagger_auto_schema
 from rest_framework import generics, viewsets
 from rest_framework.permissions import IsAuthenticated, IsAdminUser
 from rest_framework.response import Response
@@ -10,6 +12,9 @@ from lms.serializers import CourseSerializer, LessonSerializer, SubscriptionSeri
 from users.permissions import IsModerator, IsOwner
 
 
+@method_decorator(name='list', decorator=swagger_auto_schema(
+    operation_description="Получение списка доступных курсов"
+))
 class CourseViewSet(viewsets.ModelViewSet):
     """Вьюсет для работы с моделью Course."""
 
